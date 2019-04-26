@@ -26,3 +26,5 @@ class Whisky(Item):
     winning_bid = Field()
     sold_on = Field()
     reserve = Field()
+    currency = Field()
+    url = Field()
